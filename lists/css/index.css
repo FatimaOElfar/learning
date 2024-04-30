@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    list-style: none;
+
+}
+section{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:10%;
+}
+.content ,.list{
+    width: 80%;
+    margin: auto;
+    /* padding: 0 20px; */
+    margin-left:25%;
+}
+.content{
+    position: relative;
+
+}
+p{
+    width: 250px;
+    background: #fff;
+    color: black;
+    border-radius: 10px;
+    /* margin: auto; */
+    margin-top: 10px;
+    padding: 5px 3px;
+    font-size: 17px;
+    font-weight: 300;
+   
+    display: none;
+}
+#Add{
+    position: absolute;
+    right: 46%;
+    top: 3%;
+    font-size: 23px;
+    background: transparent;
+    border: none;
+    background:blue;
+    padding: 2px 4px;
+}
+
+#deletAll{
+    position: absolute;
+    right: 41%;
+    top: 11%;
+    font-size: 20px;
+    /* background: transparent; */
+    border: none;
+    background-color:red;
+    bottom: 10%;
+    padding: 0px 3px;
+    overflow: hidden;
+}
+
+
+
+/* #Add i{
+    color: #b52be2;
+}
+#deletAll i{
+    color:#a52542;
+} */
+input{
+    width:60%;
+    height: 35px;
+    border-radius: 9px;
+    padding: 5px 10px;
+    border: none;
+    outline:none;
+    color: black;
+}
+h2 {
+margin-bottom: 10px;
+text-align: center;
+width:50%;
+
+}
+.list{
+    margin-top:50px;
+}
+li{
+    width: 60%;
+    background: #fff;
+    color: black;
+    height: 35px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-bottom: 5%;
+    
+}
+.main{
+    position: relative;
+}
+
+#Delet{
+    position: absolute;
+    right:2%;
+    top: 7%;
+    font-size: 20px;
+    background: red;
+    border: none;
+    padding: 3px 5px;
+
+}
+#Edit{
+    position: absolute;
+    right:12%;
+    top: 7%;
+    font-size: 20px;
+    background: green;
+    border: none;
+    padding: 3px 5px;
+}
+@media(max-width:768px)
+{
+    .content ,.list {
+        width: 100%;
+        margin-left: 0;
+      
+    }
+    input{
+        width: 100%;
+    }
+   h2{
+       width:100%;
+   }
+   li{
+       width: 100%;
+   }
+   #deletAll{
+       right:5%;
+   }
+   #Add{
+       right:18%;
+   }
+}
+
+

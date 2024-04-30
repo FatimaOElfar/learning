@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/solid.min.css"
+      integrity="sha512-uj2QCZdpo8PSbRGL/g5mXek6HM/APd7k/B5Hx/rkVFPNOxAQMXD+t+bG4Zv8OAdUpydZTU3UHmyjjiHv2Ww0PA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Tasks</title>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="header"><h1>TASKS TO BE DONE</h1></div>
+        <div class="content">
+          <input type="text" id="maininput" placeholder="Enter your task" />
+
+          <button id="Add"><i class="fa-solid fa-plus"></i></button>
+          <button id="deletAll"><i class="fa-solid fa-trash"></i></button>
+        
+        </div>
+        <p id="text">Please Enter Your Task</p>
+        <div class="list">
+          <h2>TASKS LIST:</h2>
+          <ul id="tasksList">
+            <!-- <li>  <button id="Delet"><i class="fa-solid fa-trash"></i></button>
+              <button  id="Edit"><i class="fa-solid fa-pen-to-square"></i></button> </li> -->
+
+          </ul>
+        </div>
+      </div>
+      
+    </section>
+    <script src="./index.js"></script>
+  </body>
+</html>
