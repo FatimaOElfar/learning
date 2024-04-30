@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer components{
+    .logo{
+        @apply  taxt-4xl text-red-500;
+    }
+} */
+/* @layer components{
+    .gridImage{
+        display:grid;
+        grid-template-columns:repeat(auto fill ,mimax(200px,1fr));
+    }
+} */
