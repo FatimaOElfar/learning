@@ -1,0 +1,104 @@
+@mixin all{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+    list-style: none;
+    a{
+        color: #fff;
+    }
+}
+
+@mixin flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@mixin column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+@mixin skills{
+    background-color: #fff;
+    box-shadow:0 0 5px rgb(211, 215, 221), 0 0 5px rgb(211, 215, 221) ;
+    padding: 10px 20px;
+    border-radius: 15px;
+    
+   h2{
+    text-align: center;
+    // color: #80808087;
+   } 
+   .info{
+    display: flex;
+    font-size: 25px;
+    margin-top: 15px;
+    i{
+        color: #80808087;
+    }
+    p{
+        margin-left: 10px;
+        color: #80808087;
+        
+    }
+   }
+}
+//footer
+// @mixin footer{
+//     .data{
+//         @include flex;
+//         width: 600px;
+//         margin:-70px auto;
+//         background-color: #000000db;
+//         padding: 15px 15px;
+//         border-radius: 10px;
+//         .phone{
+//             .call{
+//                 display: flex;
+//                 flex-direction: row;
+//                 color: #fff;
+//                 font-size: 10px;
+//                 i{
+//                     font-size: 12px;
+//                     margin-right: 5px;
+//                 }
+    
+//             }
+//             p{
+//                 color: #d9cdcdb8;
+//                 margin-top: 10px;
+//             }
+//         }
+//         .location{
+//             .loc{
+//                 display: flex;
+//                 flex-direction: row;
+//                 color: #fff;
+//                 font-size: 10px;
+//                 i{
+//                     font-size: 12px;
+//                     margin-right: 5px;
+//                 }
+//             }
+//             p{
+//                 color: #d9cdcdb8;
+//                 margin-top: 10px;
+//             }
+//         }
+//         .footer{
+//             ul{
+//                 @include column;
+//                 li{
+//                     a{
+//                         color:#d9cdcdb8;
+//                         font-size:15px;
+//                         // text-shadow: 0 0 1px rgb(220, 226, 233) ;
+//                     }
+//                 }
+//             }
+//         }
+    
+    
+//     }
+    
+// }

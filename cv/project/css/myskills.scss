@@ -1,0 +1,86 @@
+@import './mixen';
+*{
+    @include all;
+}
+.skills{
+    h1{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .content{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(250px , 1fr));
+        gap: 20px;
+        width: 80%;
+        margin: 10% auto;
+        padding: 0 40px;
+        .basic{
+           @include skills;
+        }
+        .tools{
+         @include skills;
+        }
+        .framework{
+            @include skills
+        }
+    }
+
+}
+
+
+//footer
+.data{
+    @include flex;
+    width: 600px;
+    margin:-70px auto;
+    background-color: #000000db;
+    padding: 15px 15px;
+    border-radius: 10px;
+    .phone{
+        .call{
+            display: flex;
+            flex-direction: row;
+            color: #fff;
+            font-size: 10px;
+            i{
+                font-size: 12px;
+                margin-right: 5px;
+            }
+
+        }
+        p{
+            color: #d9cdcdb8;
+            margin-top: 10px;
+        }
+    }
+    .location{
+        .loc{
+            display: flex;
+            flex-direction: row;
+            color: #fff;
+            font-size: 10px;
+            i{
+                font-size: 12px;
+                margin-right: 5px;
+            }
+        }
+        p{
+            color: #d9cdcdb8;
+            margin-top: 10px;
+        }
+    }
+    .footer{
+        ul{
+            @include column;
+            li{
+                a{
+                    color:#d9cdcdb8;
+                    font-size:15px;
+                    // text-shadow: 0 0 1px rgb(220, 226, 233) ;
+                }
+            }
+        }
+    }
+
+
+}

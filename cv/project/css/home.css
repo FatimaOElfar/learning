@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  background-color: black;
+}
+* a {
+  color: #fff;
+}
+
+.container {
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  border-right: 1px solid #fff;
+  overflow: hidden;
+}
+.nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nav ul li {
+  border-bottom: 1px solid #fff;
+  font-size: 30px;
+  padding: 25px 10px;
+  text-align: center;
+  color: #fff;
+}
+.nav ul li .web {
+  display: flex;
+  flex-direction: column;
+}
+.nav ul li .web b {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 80px;
+  margin-left: 20px;
+  margin-top: -20px;
+  text-shadow: 10px 0 5px rgba(235, 216, 224, 0.9803921569);
+}
+.nav ul li .icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav ul li .icons i {
+  margin-left: 10px;
+  box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+}
+.nav ul li .icons i a {
+  box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+  transform: scale(1.2);
+}
+
+.text {
+  margin-left: 30px;
+  margin-top: 10%;
+}
+.text h1 {
+  font-weight: 400;
+  font-size: 50px;
+  font-style: italic;
+  color: #fff;
+}
+.text h2, .text h3 {
+  margin-top: 15%;
+  font-size: 50px;
+  font-weight: 400;
+  color: #FFF;
+}
+.text p {
+  font-size: 25px;
+  margin-left: 30px;
+  margin-top: 15px;
+  color: #fff;
+}
+
+.contact {
+  text-align: center;
+}
+.contact button {
+  box-shadow: 0 0 2px rgb(220, 226, 233), 0 0 2px rgb(4, 255, 37);
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  font-size: 20px;
+  width: fit-content;
+}
+
+@media (max-width: 768px) {
+  .contact {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=home.css.map */

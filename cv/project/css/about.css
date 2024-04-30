@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+* a {
+  color: #fff;
+}
+
+.container {
+  width: 100%;
+}
+.container .about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+  width: 80%;
+  margin: 30px auto;
+}
+@media (max-width: 768px) {
+  .container .about {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.container .about .data {
+  text-align: left;
+  font-size: 20px;
+  margin-top: 50px;
+  line-height: 1.2;
+  color: rgb(107, 114, 128);
+  background-color: #fff;
+  border-radius: 20px;
+  width: 400px;
+  box-shadow: 0 0 10px rgb(220, 226, 233), 0 0 10px rgb(220, 226, 233);
+}
+.container .about .data p {
+  padding: 20px;
+}
+.container .about .imag img {
+  width: 450px;
+  height: auto;
+  box-shadow: 0 0 5px rgb(211, 215, 221), 0 0 5px rgb(211, 215, 221);
+}
+
+.data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 600px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.8588235294);
+  padding: 15px 15px;
+  border-radius: 10px;
+}
+.data .phone .call {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  font-size: 10px;
+}
+.data .phone .call i {
+  font-size: 12px;
+  margin-right: 5px;
+}
+.data .phone p {
+  color: rgba(217, 205, 205, 0.7215686275);
+  margin-top: 10px;
+}
+.data .location .loc {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  font-size: 10px;
+}
+.data .location .loc i {
+  font-size: 12px;
+  margin-right: 5px;
+}
+.data .location p {
+  color: rgba(217, 205, 205, 0.7215686275);
+  margin-top: 10px;
+}
+.data .footer ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.data .footer ul li a {
+  color: rgba(217, 205, 205, 0.7215686275);
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=about.css.map */
