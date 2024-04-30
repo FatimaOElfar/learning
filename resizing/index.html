@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h2>Auto Resize Textarea</h2>
+        <textarea placeholder="Type something here......." required></textarea>
+    </div>
+    <script>
+        const textarea1 = document.querySelector("textarea");
+        textarea1.addEventListener("keyup",e =>{
+            // textarea1.style.height = "59";
+            let scHeight =e.target.scrollHeight;
+            textarea1.style.height = `${scHeight}px`;
+            // console.log(scHeight);
+            
+        });
+    </script>
+</body>
+</html>
