@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    
+    <title>Prodect</title>
+</head>
+<body>
+   
+ <section >
+     <main class=" w-4/5 m-auto">
+        <h1 class="text-center text-2xl mt-20 font-bold">Products</h1>
+        <div class=" flex flex-col mb-6">
+            <label for="" class="text-xl mb-2">Product Name</label>
+            <input type="text" id="proName" class="border-solid border-2 outline-0  h-8 rounded-lg " >
+        </div>
+        <div class=" flex flex-col mb-6">
+            <label for="" class="text-xl mb-2">Product Price</label>
+            <input type="number" id="proPrice" class="border-solid border-2 outline-0  h-8 rounded-lg " >
+        </div>
+        <div class=" flex flex-col mb-6">
+            <label for="" class="text-xl mb-2">Product Category</label>
+            <input type="text" id="proCat" class="border-solid border-2 outline-0  h-8 rounded-lg " >
+        </div>
+        <div class=" flex flex-col mb-6">
+            <label for="" class="text-xl mb-2">Product Description</label>
+            <input type="text" id="proDes" class="border-solid border-2 outline-0  h-8 rounded-lg " >
+        </div>
+        <div class=" flex flex-col mb-6">
+            <label for="" class="text-xl mb-2">Product Count</label>
+            <input type="number" id="proCount" class="border-solid border-2 outline-0  h-8 rounded-lg " >
+        </div>
+        <div>
+            <button class="w-20 h-10 bg-blue-500 text-white p-2 rounded-lg" id="Submit">Submit</button>
+            <button class="w-30 h-10 bg-red-500 text-white p-2 rounded-lg d-none" id="DeletAll">Delete All</button>
+            
+        </div>
+        <div>
+            <input type="text" onkeyup="search(this.value)"  placeholder="Search..." class="border-solid border-2 outline-0 h-8 p-4  rounded-lg mt-6 w-full mr-40">
+        </div>
+        <div class="mt-10">
+          <table id="table_item" >
+            <thead>
+                <tr>
+                    <th  class="w-14 h-10 bg-black text-white border-r-2 border-white  p-x-2 first">ID</th>
+                    <th class = "w-40 h-10 bg-black text-white border-r-2  border-white  p-x-4  second">Product Name</th>
+                    <th class = "w-40 h-10 bg-black text-white border-r-2  border-white  p-x-4  thr ">Product Price</th>
+                    <th class = "w-44 h-10 bg-black text-white border-r-2  border-white  p-x-4 fou ">Product Category</th>
+                    <th class = "w-60 h-10 bg-black text-white border-r-2  border-white p-x-4 fif">Product Description</th>
+                    <th class = "w-40 h-10 bg-black text-white border-r-2  border-white p-x-4 six"> Count</th>
+                    <th class = "w-20 h-10 bg-black text-white border-r-2  border-white p-x-4 seven">Edit</th>
+                    <th class = "w-20 h-10 bg-black text-white border-r-2  border-white p-x-4 eight ">Delete</th>
+                </tr >
+            </thead>
+            <tbody  id= "TableOrder" class="mt-20 ">        
+
+            </tbody>
+
+          </table>
+        </div>
+        
+     </main>
+ </section> 
+<script src="../index.js"></script>
+
+</body>
+</html>

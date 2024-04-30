@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ /* @media(max-width:768px)
+ {
+     .first{
+         width: 20px;
+     }
+ } */
+
+#DeletAll{
+    display: none;
+}
